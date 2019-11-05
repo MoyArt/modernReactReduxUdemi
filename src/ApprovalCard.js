@@ -6,8 +6,8 @@ const ApprovalCard = props => {
       <div className="content">{props.children}</div>
       <div className="extra content">
         <div className="ui two buttons">
-          <button className="button green">Accept</button>
-          <button className="button red">Decline</button>
+          <button className="ui button green">Accept</button>
+          <button className="ui button red">Decline</button>
         </div>
       </div>
     </div>  
